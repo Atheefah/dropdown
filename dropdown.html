@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="dropdown.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Epilogue&display=swap" rel="stylesheet">
+</head>
+<body>
+ 
+  <ul>
+    <li><a href="#home"><img src="images\logo.svg" alt="logo" id="logo"></a></li>
+    <li class="dropdown">
+      <a href="javascript:void(0)" class="dropbtn">Features</a>
+      <div class="dropdown-content">
+        <a href="#"><img src="images\icon-todo.svg" alt=""> Todo list</a>
+        <a href="#"><img src="images\icon-calendar.svg" alt=""> Calender</a>
+        <a href="#"><img src="images\icon-reminders.svg" alt="">Reminder</a>
+        <a href="#"><img src="images\icon-reminders.svg" alt="">Planning</a>
+      </div>
+    </li>
+    <li class="dropdown">
+      <a href="javascript:void(0)" class="dropbtn">Company</a>
+      <div class="dropdown-content">
+        <a href="#">History</a>
+        <a href="#">Our Team</a>
+        <a href="#">Blog</a>
+      </div>
+    </li>
+    <li><a href="#">Career</a></li>
+    <li><a href="#">About</a></li>
+<div id="right">
+    <li ><a href="#"><span id="login">Login</span></a></li>
+    <li><a href="#"><button class="registerbtn"><span id="register">Register</span></button></a></li>
+  </div>
+  </ul>
+      
+<div class="container">
+        <div class="left">
+          <div class="make">
+            <h1>Make <br> remote work </h1>
+            <p>Get your team in sync, no matter your location. <br> Streamline processes, 
+                create team rituals, and watch <br> productivity soar.</p>
+        <button class="learnmore"><a href="">Learn More</a></button>
+      </div>
+        <div class="side-image">
+            <img  class="sideimg" src="images\image-hero-desktop.png" alt="">
+          </div>
+        </div>
+        <div class="bottom-image">
+           <li> <img  id="imgbottom" src="images\client-audiophile.svg" alt=""></li>
+           <li> <img id="imgbottom" src="images\client-databiz.svg" alt=""></li>
+           <li><img  id="imgbottom" src="images\client-maker.svg" alt=""></li>
+            <li><img  id="imgbottom" src="images\client-meet.svg" alt=""></li>
+        </div>
+      </div>
+      <script src="dropdown.js"></script>
+</body>
+</html>

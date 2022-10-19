@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="dropdown.css">
+</head>
+<body>
+     <ul class="topnav">
+        <script src="https://kit.fontawesome.com/b11c1fc89e.js" crossorigin="anonymous"></script>
+        <a href="javascript:void(0);" class="dropdown-btn"  onclick="myFunction()">
+          <i class="fa fa-bars"></i></a>
+        <!-- Navigation links (hidden by default) -->
+        <div class="dropdownContent">
+          <li class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn">Features</a>
+            <div class="dropdown-content">
+              <a href="#"><img src="images\icon-todo.svg" alt=""> Todo list</a>
+              <a href="#"><img src="images\icon-calendar.svg" alt=""> Calender</a>
+              <a href="#"><img src="images\icon-reminders.svg" alt="">Reminder</a>
+              <a href="#"><img src="images\icon-reminders.svg" alt="">Planning</a>
+            </div>
+          </li>
+          <li class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn">Company</a>
+            <div class="dropdown-content">
+              <a href="#">History</a>
+              <a href="#">Our Team</a>
+              <a href="#">Blog</a>
+            </div>
+          </li>
+          <li><a href="#">Career</a></li>
+          <li><a href="#">About</a></li>
+      <div id="right">
+          <li ><a href="#"><span id="login">Login</span></a></li>
+          <li><a href="#"><button class="registerbtn"><span id="register">Register</span></button></a></li>
+        </div>
+    </ul>
+</div>
+        <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+       
+        <script src="dropdown.js"></script>
+</body>
+</html>
